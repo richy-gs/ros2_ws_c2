@@ -14,8 +14,8 @@ find_package(ament_cmake REQUIRED)
 
 # We are telling to the compiler install the directory
 # launch inside the my_robot_bringup folder
-install(DIRECTORY
-  launch
+install(
+  DIRECTORY launch rviz
   DESTINATION share/${PROJECT_NAME}
 )
 
